@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C000000010 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000000011 /* Storage.swift */; };
+		C000000015 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000000016 /* Theme.swift */; };
+		C000000020 /* FridgeRouletteModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000000021 /* FridgeRouletteModels.swift */; };
+		C000000030 /* FridgeRouletteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000000031 /* FridgeRouletteApp.swift */; };
+		C000000040 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000000041 /* AppManager.swift */; };
+		C000000050 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000000051 /* MainView.swift */; };
+		C000000055 /* FridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000000056 /* FridgeView.swift */; };
+		C000000057 /* RouletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000000058 /* RouletteView.swift */; };
+		C000000059 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000005A /* RecipesView.swift */; };
+		C00000005B /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000005C /* HistoryView.swift */; };
+		C000000060 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000000061 /* OnboardingView.swift */; };
+		C000000070 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000000071 /* SettingsView.swift */; };
+		C900000011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C900000010 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C000000011 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		C000000016 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C000000021 /* FridgeRouletteModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeRouletteModels.swift; sourceTree = "<group>"; };
+		C000000031 /* FridgeRouletteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeRouletteApp.swift; sourceTree = "<group>"; };
+		C000000041 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		C000000051 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C000000056 /* FridgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeView.swift; sourceTree = "<group>"; };
+		C000000058 /* RouletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteView.swift; sourceTree = "<group>"; };
+		C00000005A /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		C00000005C /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		C000000061 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C000000071 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C900000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C900000012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C900000020 /* FridgeRoulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FridgeRoulette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C900000050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C900000001 = {
+			isa = PBXGroup;
+			children = (
+				C900000002 /* FridgeRoulette */,
+				C900000007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C900000002 /* FridgeRoulette */ = {
+			isa = PBXGroup;
+			children = (
+				C000000031 /* FridgeRouletteApp.swift */,
+				C900000012 /* Info.plist */,
+				C900000010 /* Assets.xcassets */,
+				C900000003 /* Models */,
+				C900000004 /* Helpers */,
+				C900000005 /* ViewModels */,
+				C900000006 /* Views */,
+			);
+			path = FridgeRoulette;
+			sourceTree = "<group>";
+		};
+		C900000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C000000021 /* FridgeRouletteModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C900000004 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C000000011 /* Storage.swift */,
+				C000000016 /* Theme.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C900000005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C000000041 /* AppManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C900000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C000000051 /* MainView.swift */,
+				C000000056 /* FridgeView.swift */,
+				C000000058 /* RouletteView.swift */,
+				C00000005A /* RecipesView.swift */,
+				C00000005C /* HistoryView.swift */,
+				C000000061 /* OnboardingView.swift */,
+				C000000071 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C900000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C900000020 /* FridgeRoulette.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C900000030 /* FridgeRoulette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C900000081 /* Build configuration list for PBXNativeTarget "FridgeRoulette" */;
+			buildPhases = (
+				C900000060 /* Sources */,
+				C900000050 /* Frameworks */,
+				C900000070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FridgeRoulette;
+			productName = FridgeRoulette;
+			productReference = C900000020 /* FridgeRoulette.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C900000040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C900000030 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C900000080 /* Build configuration list for PBXProject "FridgeRoulette" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C900000001;
+			productRefGroup = C900000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C900000030 /* FridgeRoulette */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C900000070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C900000011 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C900000060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C000000010 /* Storage.swift in Sources */,
+				C000000015 /* Theme.swift in Sources */,
+				C000000020 /* FridgeRouletteModels.swift in Sources */,
+				C000000030 /* FridgeRouletteApp.swift in Sources */,
+				C000000040 /* AppManager.swift in Sources */,
+				C000000050 /* MainView.swift in Sources */,
+				C000000055 /* FridgeView.swift in Sources */,
+				C000000057 /* RouletteView.swift in Sources */,
+				C000000059 /* RecipesView.swift in Sources */,
+				C00000005B /* HistoryView.swift in Sources */,
+				C000000060 /* OnboardingView.swift in Sources */,
+				C000000070 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C900000082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C900000083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C900000084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FridgeRoulette/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fridge Roulette";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aslantabureci.fridgeroulette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C900000085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FridgeRoulette/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fridge Roulette";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aslantabureci.fridgeroulette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C900000080 /* Build configuration list for PBXProject "FridgeRoulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C900000082 /* Debug */,
+				C900000083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C900000081 /* Build configuration list for PBXNativeTarget "FridgeRoulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C900000084 /* Debug */,
+				C900000085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C900000040 /* Project object */;
+}

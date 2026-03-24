@@ -1,0 +1,32 @@
+App Name: Fridge Roulette
+Subtitle: Cook With What You Have
+Bundle ID: aslantabureci.fridgeroulette
+SKU: fridgeroulette2026
+Apple ID: 6780000003
+Category: Food & Drink (primary), Utilities (secondary)
+Content Rights: Does not contain third-party content
+Age Rating: 4+
+Pricing: Free
+
+Description:
+Staring at your fridge with no idea what to cook? Fridge Roulette solves that. Add the ingredients you have at home, spin the roulette, and discover recipes you can make right now.
+
+50 built-in recipes across breakfast, lunch, dinner, snacks, and desserts. The app intelligently matches your available ingredients to recipes, showing you the best options with match percentages.
+
+Features:
+• 50 curated recipes with step-by-step instructions
+• 75+ ingredients organized by category
+• Smart matching — see what % of ingredients you already have
+• Animated roulette spinner for fun recipe discovery
+• Browse all recipes by meal type and difficulty
+• Ingredient checklist shows what you have vs what's missing
+• Log cooked meals with star ratings
+• Save favorite recipes
+• Cooking history with most-cooked stats
+• Beautiful floating navigation bar
+• Dark warm-toned interface
+• All data stored locally — no account needed
+
+Keywords: recipe,cook,fridge,ingredients,roulette,meal,food,kitchen,dinner,planner
+
+Privacy URL: https://sites.google.com/view/fridgeroulette-privacy
