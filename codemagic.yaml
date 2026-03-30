@@ -5,16 +5,16 @@ workflows:
     instance_type: mac_mini_m2
 
     integrations:
-      app_store_connect: PlantPropagationLog
+      app_store_connect: COOPER KEVIN
 
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: nosaaahunar.propagationlogapp
+        bundle_identifier: cooperkevin.fridgeroulette
       vars:
-        XCODE_PROJECT: "PlantPropagationLog.xcodeproj"
-        XCODE_SCHEME: "PlantPropagationLog"
-        APP_STORE_APP_ID: "6761029280"
+        XCODE_PROJECT: "FridgeRoulette.xcodeproj"
+        XCODE_SCHEME: "FridgeRoulette"
+        APP_STORE_APP_ID: "6761370231"
       xcode: 16.1
 
     scripts:
