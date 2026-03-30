@@ -5,7 +5,7 @@ workflows:
     instance_type: mac_mini_m2
 
     integrations:
-      app_store_connect: COOPER KEVIN
+      app_store_connect: FridgeRoulette
 
     environment:
       ios_signing:
